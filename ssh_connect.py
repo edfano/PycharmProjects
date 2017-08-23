@@ -4,7 +4,7 @@ import paramiko
 
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect('10.252.164.160',support,cod.wocks)
+ssh.connect('10.252.164.160',support,xxx.xxxx)
 
 #Check the status if connection is alive using :
 status =  ssh.get_transport().is_active()
